@@ -30,7 +30,7 @@ mdc: true
 </div>
 
 <div class="text-center mt-20">
-  <h3 class="text-gray">Press Blankspace to continue...</h3>
+  <h3 class="text-gray">Press space to continue...</h3>
 </div>
 
 <div class="absolute bottom-10 left-0 right-0 flex justify-center space-x-8">

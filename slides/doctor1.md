@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="text-center">
-    <h1 class="text-3xl font-bold text-indigo-800 mb-2">Multi-Agent Collaborative Consultation</h1>
-    <p class="text-gray-600">DoctorAgents generate initial reviews</p>
+  <h1 class="text-3xl font-bold text-indigo-800 mb-2">Multi-Agent Collaborative Consultation</h1>
+  <p class="text-gray-600">DoctorAgents generate initial reviews</p>
 </div>
 
 <div class="grid grid-cols-2 gap-8 h-full">
@@ -24,9 +24,9 @@ layout: default
             <div class="w-55/100 h-full bg-red-600 animate-progress"></div>
         </div>
         <div class="bg-white rounded-lg">
-            <li>Carbon dioxide binding power is 18.7 mmol/L, significantly below the ESRD reference range of >25 mmol/L, indicating metabolic acidosis, a condition associated with muscle wasting and accelerated kidney disease progression.</li>
-            <li>Albumin levels are 30.2 g/L, also below the ESRD reference range of >32 g/L, suggesting malnutrition and increased susceptibility to infections.</li>
-            <li>Despite these low values, food intake is 3495.67 g, higher than both survival and deceased patient medians, which may indicate an attempt to compensate for poor nutrient absorption or increased metabolic demands.</li>
+          <li>Carbon dioxide binding power is 18.7 mmol/L, significantly below the ESRD reference range of >25 mmol/L, indicating metabolic acidosis, a condition associated with muscle wasting and accelerated kidney disease progression.</li>
+          <li>Albumin levels are 30.2 g/L, also below the ESRD reference range of >32 g/L, suggesting malnutrition and increased susceptibility to infections.</li>
+          <li>Despite these low values, food intake is 3495.67 g, higher than both survival and deceased patient medians, which may indicate an attempt to compensate for poor nutrient absorption or increased metabolic demands.</li>
         </div>
         </div>
     </div>

@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="text-center">
-    <h1 class="text-3xl font-bold text-indigo-800 mb-2">Multi-Agent Collaborative Consultation</h1>
-    <p class="text-gray-600">DoctorAgents generate initial reviews</p>
+  <h1 class="text-3xl font-bold text-indigo-800 mb-2">Multi-Agent Collaborative Consultation</h1>
+  <p class="text-gray-600">DoctorAgents generate initial reviews</p>
 </div>
 
 <div class="grid grid-cols-2 gap-8 h-full">
@@ -24,9 +24,9 @@ layout: default
           <div class="w-7/10 h-full bg-red-800 animate-progress"></div>
         </div>
         <div class="bg-white rounded-lg">
-            <li>Notably, her blood potassium level is 3.11 mmol/L, significantly below the reference range for ESRD patients (>4 mmol/L), indicating a potential risk for cardiac arrhythmias and muscle weakness.</li> 
-            <li>Additionally, her albumin level is 30.2 g/L, which is lower than the reference range for ESRD patients (>32 g/L), suggesting malnutrition or inadequate protein intake.</li> 
-            <li>The patient's systolic blood pressure (130 mmHg) is within the higher reference range for ESRD patients, suggesting ongoing cardiovascular stress.</li> 
+          <li>Notably, her blood potassium level is 3.11 mmol/L, significantly below the reference range for ESRD patients (>4 mmol/L), indicating a potential risk for cardiac arrhythmias and muscle weakness.</li> 
+          <li>Additionally, her albumin level is 30.2 g/L, which is lower than the reference range for ESRD patients (>32 g/L), suggesting malnutrition or inadequate protein intake.</li> 
+          <li>The patient's systolic blood pressure (130 mmHg) is within the higher reference range for ESRD patients, suggesting ongoing cardiovascular stress.</li> 
         </div>
         </div>
     </div>

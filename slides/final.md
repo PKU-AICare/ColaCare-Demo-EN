@@ -8,9 +8,7 @@ layout: default
 </div>
 
 <div class="relative h-32 mb-12 -mt-10">
-  <v-clicks>
-    <div class="absolute top-1/2 left-0 right-0 h-1 bg-gray-200"></div>
-  </v-clicks>
+  <div v-click=1 class="absolute top-1/2 left-0 right-0 h-1 bg-gray-200"></div>
 
   <!-- 时间节点 -->
   <div class="absolute top-1/2 left-0 right-0 flex justify-between">

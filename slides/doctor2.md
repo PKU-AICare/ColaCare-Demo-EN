@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="text-center">
-    <h1 class="text-3xl font-bold text-indigo-800 mb-2">多医疗智能体协作会诊流程</h1>
-    <p class="text-gray-600">专家智能体做出初步判断</p>
+    <h1 class="text-3xl font-bold text-indigo-800 mb-2">Multi-Agent Collaborative Consultation</h1>
+    <p class="text-gray-600">DoctorAgents generate initial reviews</p>
 </div>
 
 <div class="grid grid-cols-2 gap-8 h-full">
@@ -14,19 +14,19 @@ layout: default
         <div class="absolute -top-6 left-1/2 -translate-x-1/2">
         <carbon:ai class="text-4xl text-emerald-600 bg-white rounded-full p-2 shadow-md" />
         </div>
-        <h3 class="text-xl font-bold text-green-800 mb-4 mt-2">专家智能体 2</h3>
+        <h3 class="text-xl font-bold text-green-800 mb-4 mt-2">DoctorAgent 2</h3>
         <div class="space-y-2 text-sm leading-relaxed">
         <div class="flex justify-between mb-2">
-          <span><carbon:warning class="flex-shrink-0 text-green-500 mr-2" /> 风险等级</span>
+          <span><carbon:warning class="flex-shrink-0 text-green-500 mr-2" /> Risk Level</span>
           <span>17%</span>
         </div>
         <div class="h-2 bg-gray-200 rounded-full overflow-hidden">
           <div class="w-1/6 h-full bg-green-500 animate-progress"></div>
         </div>
         <div class="bg-white rounded-lg">
-            <li>舒张压 85.0 mmHg（高于死亡患者中位数70 mmHg），提示心血管系统尚能代偿</li>
-            <li>血氯 98.0 mmol/L处于正常范围，提示电解质平衡相对稳定</li>
-            <li>血肌酐 768.0 μmol/L呈下降趋势，未达到ESRD患者典型阈值（>900 μmol/L），提示肾功能尚未完全失代偿</li> 
+            <li>Her diastolic blood pressure of 85.0 mmHg is within the ESRD reference range (>70 mmHg) but is notably higher than the median value of deceased patients (70.0 mmHg), suggesting a potential protective effect against mortality.</li>
+            <li>The patient's blood chlorine level of 98.0 mmol/L is within the normal range for ESRD patients and is slightly higher than the median value of deceased patients, further supporting a lower mortality risk.</li>
+            <li>Her creatinine level is 768.0 \u03bcmol/L, which is lower than the typical ESRD reference range (>900 \u03bcmol/L), indicating some degree of renal function risk.</li> 
         </div>
         </div>
     </div>

@@ -20,7 +20,7 @@ layout: default
     </div>
     <div v-click="3" class="w-24 text-center">
       <div class="w-6 h-6 bg-orange-500 rounded-full mx-auto -mt-3 ring-4 ring-white"></div>
-      <span class="text-sm">First-round Debate</span>
+      <span class="text-sm">First Debate</span>
     </div>
     <div v-click="4" class="w-24 text-center">
       <div class="w-6 h-6 bg-green-500 rounded-full mx-auto -mt-3 ring-4 ring-white"></div>
@@ -79,7 +79,7 @@ layout: default
   <!-- 第1轮辩论卡片 -->
   <div v-click="3" class="col-span-1">
     <div class="card-animation bg-orange-50 p-4 h-full rounded-lg shadow-md">
-      <h3 class="text-sm font-bold mb-2">First-round Debate</h3>
+      <h3 class="text-sm font-bold mb-2">First Debate</h3>
       <div class="text-xs text-gray-600">
         <div class="mt-4 mb-6">
           <h5 class="text-xl font-bold">DoctorAgent 1</h5>
@@ -115,15 +115,15 @@ layout: default
       <h3 class="text-sm font-bold mb-2">Final Report</h3>
       <div class="text-xs space-y-2 text-gray-600">
         <h5 class="text-xl font-bold">Diagnostic Conclusion</h5>
-        <p>Patient identified as high-risk group for ESRD.</p>
+        Patient identified as high-risk for ESRD.
         <h5 class="text-xl font-bold">Key Findings</h5>
         1. Metabolic acidosis accelerating renal disease progression<br>
-        2. Hypoalbuminemia combined with hypokalemia leading to malnutrition and cardiovascular complications<br>
-        3. Paradoxical high nutritional intake with hypoalbuminemia indicates need for enteral nutrition adjustment to prevent fluid overload
-        <h5 class="text-xl font-bold">Intervention Recommendations</h5>
+        2. Hypoalbuminemia and hypokalemia leading to malnutrition and cardiovascular complications<br>
+        3. High nutritional intake with hypoalbuminemia indicates need for enteral nutrition adjustment
+        <!-- <h5 class="text-xl font-bold">Intervention Recommendations</h5>
         1. Immediate correction of hypokalemia (target >4 mmol/L)<br>
         2. Optimized acidosis management (sodium bicarbonate supplementation)<br>
-        3. Development of individualized low-protein, high-calorie nutrition plan
+        3. Development of individualized low-protein, high-calorie nutrition plan -->
       </div>
     </div>
   </div>

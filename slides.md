@@ -21,12 +21,12 @@ mdc: true
 # ColaCare
 
 <div class="text-center">
-  <h2 class="text-2xl mt-4 text-gray-200">
+  <h3 class="text-2xl mt-4 text-bold text-gray-200">
     Enhancing EHR Modeling through LLM-Driven Multi-Agent Collaboration
-  </h2>
-  <h3 class="text-xl mt-8 text-gray-300">
-    A Clinical Decision Support System
   </h3>
+  <h4 class="text-xl mt-8 text-gray-300">
+    A Clinical Decision Support System
+  </h4>
 </div>
 
 <div class="text-center mt-20">
@@ -100,7 +100,7 @@ background: /figures/bg.jpg
 
 <div class="absolute top-4/9 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">
   <h1 class="text-6xl mb-4">Thanks for Watching!</h1>
-  <h2 class="text-2xl text-gray-200">Enhancing EHR Modeling through LLM-Driven Multi-Agent Collaboration</h2>
+  <h3 class="text-2xl text-gray-200">Enhancing EHR Modeling through LLM-Driven Multi-Agent Collaboration</h3>
 </div>
 
 <div class="text-sm absolute bottom-4 text-center text-gray-300 left-1/2 transform -translate-x-1/2">

@@ -4,14 +4,14 @@ layout: default
 # Multi-Agent Collaborative Consultation
 
 <!-- 图片组件 -->
-<div class="w-full h-3/5 flex justify-center items-center mb-4">
+<div class="w-full h-55/100 flex justify-center items-center mb-4">
   <img src="/figures/consultation.png" class="w-full h-full object-contain" />
 </div>
 
 <v-clicks>
 
 <!-- 三个核心步骤 -->
-<div class="grid grid-cols-3 gap-8 mt-10">
+<div class="grid grid-cols-3 gap-2">
   <!-- 第一步 -->
   <div class="border-l-4 border-blue-500 pl-4">
     <div class="flex items-center gap-2 text-blue-500">

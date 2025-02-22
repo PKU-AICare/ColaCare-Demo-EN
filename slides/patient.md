@@ -6,8 +6,8 @@ layout: default
   <h1 class="text-3xl font-bold text-indigo-800 mb-2">Deepseek's Collaborative Consultation Process</h1>
 </div>
 
-<div class="grid grid-cols-2 gap-8 h-full">
-  <div class="flex flex-col space-y-6">
+<div class="grid grid-cols-2 gap-4">
+  <div class="flex flex-col space-y-3">
     <div class="bg-white p-6 rounded-xl shadow-md animate-slide-in-left">
       <div class="grid grid-cols-2 gap-4 text-sm">
         <div class="flex items-center">

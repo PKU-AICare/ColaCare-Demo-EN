@@ -39,15 +39,15 @@ const indicators = {
     ca: { id: 'ca', name: 'Calcium', unit: 'mmol/L', value: '2.43' },
     k: { id: 'k', name: 'Potassium', unit: 'mmol/L', value: '3.11' },
     na: { id: 'na', name: 'Sodium', unit: 'mmol/L', value: '136.0' },
-    scr: { id: 'scr', name: 'Serum Creatinine', unit: 'μmol/L', value: '768.0' },
+    scr: { id: 'scr', name: 'Serum\nCreatinine', unit: 'μmol/L', value: '768.0' },
     p: { id: 'p', name: 'PHOS', unit: 'mmol/L', value: '1.42' },
     albumin: { id: 'albumin', name: 'Albumin', unit: 'g/L', value: '30.2' },
     crp: { id: 'crp', name: 'hs-CRP', unit: 'mg/L', value: '7.17' },
     glucose: { id: 'glucose', name: 'Glucose', unit: 'mmol/L', value: '14.7' },
-    appetite: { id: 'appetite', name: 'Food Intake', unit: 'g', value: '3495.67' },
+    appetite: { id: 'appetite', name: 'Food\nIntake', unit: 'g', value: '3495.67' },
     weight: { id: 'weight', name: 'Weight', unit: 'kg', value: '64.0' },
-    sbp: { id: 'sbp', name: 'Systolic Pressure', unit: 'mmHg', value: '130.0' },
-    dbp: { id: 'dbp', name: 'Diastolic Pressure', unit: 'mmHg', value: '85.0' },
+    sbp: { id: 'sbp', name: 'Systolic\nPressure', unit: 'mmHg', value: '130.0' },
+    dbp: { id: 'dbp', name: 'Diastolic\nPressure', unit: 'mmHg', value: '85.0' },
 }
 
 export default {
@@ -81,7 +81,7 @@ export default {
                     left: '10%',
                     right: '15%',
                     top: '25%',
-                    height: '75%',
+                    height: '80%',
                     containLabel: true
                 },
                 tooltip: {
@@ -99,6 +99,7 @@ export default {
                 legend: {
                     data: [indicators[props.f1].name, indicators[props.f2].name, indicators[props.f3].name],
                     top: '0',
+                    bottom: '5%',
                 },
                 xAxis: {
                     type: 'category',
@@ -247,6 +248,6 @@ export default {
 <style scoped>
 .chart-container {
     width: 400px;
-    height: 250px;
+    height: 275px;
 }
 </style>

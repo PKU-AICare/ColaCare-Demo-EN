@@ -26,7 +26,7 @@ layout: default
         <div class="bg-white rounded-lg">
           <li>Her diastolic blood pressure of 85.0 mmHg is within the ESRD reference range (>70 mmHg) but is notably higher than the median value of deceased patients (70.0 mmHg), suggesting a potential protective effect against mortality.</li>
           <li>The patient's blood chlorine level of 98.0 mmol/L is within the normal range for ESRD patients and is slightly higher than the median value of deceased patients, further supporting a lower mortality risk.</li>
-          <li>Her creatinine level is 768.0 \u03bcmol/L, which is lower than the typical ESRD reference range (>900 \u03bcmol/L), indicating some degree of renal function risk.</li> 
+          <li>Her creatinine level is 768.0 μmol/L, which is lower than the typical ESRD reference range (>900 μmol/L), indicating some degree of renal function risk.</li> 
         </div>
         </div>
     </div>

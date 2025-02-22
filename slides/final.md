@@ -8,19 +8,19 @@ layout: default
 </div>
 
 <div class="relative h-32 mb-12 -mt-10">
-  <div v-click=1 class="absolute top-1/2 left-0 right-0 h-1 bg-gray-200"></div>
+  <div class="absolute top-1/2 left-0 right-0 h-1 bg-gray-200"></div>
 
   <!-- 时间节点 -->
   <div class="absolute top-1/2 left-0 right-0 flex justify-between">
-    <div v-click="2" class="w-24 text-center">
+    <div class="w-24 text-center">
       <div class="w-6 h-6 bg-blue-500 rounded-full mx-auto -mt-3 ring-4 ring-white"></div>
       <span class="text-sm">Initial Reviews</span>
     </div>
-    <div v-click="3" class="w-24 text-center">
+    <div class="w-24 text-center">
       <div class="w-6 h-6 bg-orange-500 rounded-full mx-auto -mt-3 ring-4 ring-white"></div>
       <span class="text-sm">First Debate</span>
     </div>
-    <div v-click="4" class="w-24 text-center">
+    <div class="w-24 text-center">
       <div class="w-6 h-6 bg-green-500 rounded-full mx-auto -mt-3 ring-4 ring-white"></div>
       <span class="text-sm">Final Report</span>
     </div>
@@ -30,7 +30,7 @@ layout: default
 <!-- 详情卡片容器 -->
 <div class="grid gap-4 grid-cols-3 h-80 -mt-10">
   <!-- 初始报告卡片 -->
-  <div v-click="2" class="col-span-1">
+  <div v-click="1" class="col-span-1">
     <div class="card-animation bg-blue-50 p-4 h-full rounded-lg shadow-md">
       <h3 class="text-sm font-bold mb-2">Initial Reviews</h3>
       <div class="text-xs space-y-2 text-gray-600">
@@ -75,7 +75,7 @@ layout: default
   </div>
 
   <!-- 第1轮辩论卡片 -->
-  <div v-click="3" class="col-span-1">
+  <div v-click="2" class="col-span-1">
     <div class="card-animation bg-orange-50 p-4 h-full rounded-lg shadow-md">
       <h3 class="text-sm font-bold mb-2">First Debate</h3>
       <div class="text-xs text-gray-600">
@@ -108,7 +108,7 @@ layout: default
   </div>
 
   <!-- 最终报告卡片 -->
-  <div v-click="4" class="col-span-1">
+  <div v-click="3" class="col-span-1">
     <div class="card-animation bg-green-50 p-4 h-full rounded-lg shadow-md">
       <h3 class="text-sm font-bold mb-2">Final Report</h3>
       <div class="text-xs space-y-2 text-gray-600">
